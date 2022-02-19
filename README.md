@@ -1,5 +1,7 @@
 # InstallLinuxPackages
-An interactive BASH script pulls from a list of package names the user keeps in a simple txt file to keep automatically installed and updated
+An interactive BASH script that pulls from a list of APT package names the user keeps in a simple txt file to keep automatically installed and updated
+Never Again will you Sudo apt-get update && sudo apt upgrade && sudo apt install foo-package
+Just add the package name to the txt file list than ./InstallLinuxPackages
 
 ###/Script Documentation:
 #Script depends on the existance of a txt file named "LinuxPackages.txt" 
